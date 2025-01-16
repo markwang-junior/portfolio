@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jiale Wang Guo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Cursor personalizado -->
+    <div class="cursor"></div>
+    
+    <!-- Loading screen -->
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo">JWG</a>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <a href="#about">Sobre mí</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Jiale Wang Guo</h1>
+                <p class="typing-text">Desarrollador Web y Multiplataforma | DAW y DAM</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-primary">Contáctame</a>
+                    <a href="#projects" class="cta-secondary">Ver Proyectos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Aquí puedes poner tu foto -->
+                <div class="profile-image-container">
+                    <img src="images/mifoto.png" alt="Jiale Wang Guo" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">Sobre mí</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Soy un desarrollador con formación en Desarrollo de Aplicaciones Web (DAW) y Desarrollo de Aplicaciones Multiplataforma (DAM). Me apasiona crear aplicaciones funcionales y elegantes, con experiencia en herramientas como Laravel, Vue.js, MAUI, PostgreSQL, y más.</p>
+                <p>Mi objetivo es crear soluciones tecnológicas que marquen la diferencia, combinando diseño atractivo con funcionalidad robusta.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-item" data-skill="90">
+                    <span>HTML/CSS</span>
+                    <div class="skill-bar"></div>
+                </div>
+                <div class="skill-item" data-skill="85">
+                    <span>JavaScript</span>
+                    <div class="skill-bar"></div>
+                </div>
+                <div class="skill-item" data-skill="80">
+                    <span>Kotlin</span>
+                    <div class="skill-bar"></div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-item" data-skill="85">
+                    <span>PHP</span>
+                    <div class="skill-bar"></div>
+                </div>
+                <div class="skill-item" data-skill="80">
+                    <span>SQL</span>
+                    <div class="skill-bar"></div>
+                </div>
+                <div class="skill-item" data-skill="75">
+                    <span>Kotlin</span>
+                    <div class="skill-bar"></div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Móvil</h3>
+                <div class="skill-item" data-skill="85">
+                    <span>MAUI</span>
+                    <div class="skill-bar"></div>
+                </div>
+                <div class="skill-item" data-skill="80">
+                    <span>Android Studio</span>
+                    <div class="skill-bar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Proyectos</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/mesa.jpg" alt="Proyecto 1">
+                </div>
+                <h3>Aplicación de Gestión de Mascotas</h3>
+                <p>Proyecto de Android Studio para gestionar información sobre mascotas favoritas, con SQLite y Firebase.</p>
+                <div class="project-tech">
+                    <span>Android</span>
+                    <span>Firebase</span>
+                    <span>SQLite</span>
+                </div>
+                <a href="#" class="project-link"><i class="fab fa-github"></i> Ver en GitHub</a>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/php.jpg" alt="Proyecto 2">
+                </div>
+                <h3>API REST con Laravel</h3>
+                <p>Cliente API para gestionar recursos de almacenamiento en Laravel con pruebas automatizadas.</p>
+                <div class="project-tech">
+                    <span>Laravel</span>
+                    <span>MySQL</span>
+                    <span>PHPUnit</span>
+                </div>
+                <a href="#" class="project-link"><i class="fab fa-github"></i> Ver en GitHub</a>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="/api/placeholder/400/300" alt="Proyecto 3">
+                </div>
+                <h3>Consumo de API REST en MAUI</h3>
+                <p>Aplicación móvil desarrollada con MAUI para consumir un servicio REST y realizar operaciones CRUD.</p>
+                <div class="project-tech">
+                    <span>MAUI</span>
+                    <span>C#</span>
+                    <span>REST</span>
+                </div>
+                <a href="#" class="project-link"><i class="fab fa-github"></i> Ver en GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:jialewangg.ali@gmail.com">jialewangg.ali@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/markwang-junior" target="_blank">github.com/jialewangguo</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <a href="www.linkedin.com/in/mark-wang-junior" target="_blank">linkedin.com/in/jialewangguo</a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Nombre</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Mensaje</label>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2025 Jiale Wang Guo | Desarrollador Web y Multiplataforma</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
